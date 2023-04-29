@@ -1,0 +1,117 @@
+* {
+    font-family: 'Arial', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #E9EBF1;
+    height: 100vh;
+}
+
+li{
+    display: inline;
+}
+
+
+.header {
+    height: 8.780991736%;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 200px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-header {
+    height: 70px;
+}
+
+.logo-container .site-name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    margin-left: 10px;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    width: 12%;
+}
+
+.header-links a {
+    font-size: 18px;
+    color: black;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    margin: 18px auto 0 auto;
+    width: min-content;
+    height: 89%;
+}
+
+.menu_object{
+    display: flex;
+    margin-bottom: 7px;
+}
+
+.menu_object_text{
+    height: min-content;
+    margin: auto 5px;
+    font-size: 24px;
+    color: #1F3C60;
+}
+
+.menu_object_img{
+    width: 30px;
+}
+
+.messages{
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 7px;
+    width: 874px;
+}
+
+.user{
+    display: flex;
+    padding: 13px;
+}
+
+.message_data{
+    margin-left: 21px;
+}
+
+.user img {
+    height: 75px;
+    width: 72px;
+}
+
+.user_name{
+    font-size: 24px;
+}
+
+.message_text{
+    font-size: 18px;
+}
+
+.message_date{
+    margin-left: auto;
+    margin-right: 0em;
+    width: auto;
+    font-size: 14px;
+}
