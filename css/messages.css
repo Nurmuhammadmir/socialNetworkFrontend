@@ -8,7 +8,6 @@
 
 body {
     background-color: #E9EBF1;
-    height: 100vh;
 }
 
 li{
@@ -17,7 +16,6 @@ li{
 
 
 .header {
-    height: 8.780991736%;
     box-sizing: border-box;
     background-color: white;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -56,62 +54,79 @@ li{
     color: black;
 }
 
-main{
-    display: flex;
-    justify-content: space-between;
-    margin: 18px auto 0 auto;
-    width: min-content;
-    height: 89%;
+main {
+    padding: 20px;
 }
 
-.menu_object{
-    display: flex;
-    margin-bottom: 7px;
+.container {
+    margin: 0 auto;
 }
 
-.menu_object_text{
+.content-container {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    width: 15%;
+    padding: 10px;
+}
+
+.icon {
+    font-size: 25px;
+    color: #1F3C60;
+}
+
+.menu_object {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.menu_object_text {
     height: min-content;
     margin: auto 5px;
     font-size: 24px;
     color: #1F3C60;
 }
 
-.menu_object_img{
-    width: 30px;
-}
-
 .messages{
     background-color: white;
-    border-radius: 10px 10px 0px 0px;
-    padding: 7px;
-    width: 874px;
+    border-radius: 10px;
+    width: 50%;
+    padding: 10px;
 }
 
-.user{
+.user {
     display: flex;
-    padding: 13px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
 }
 
-.message_data{
-    margin-left: 21px;
+.user:hover {
+    background-color: #E9EBF1;
+    transition: .5s ease;
+}
+
+.message_data {
+    margin-left: 20px;
 }
 
 .user img {
-    height: 75px;
-    width: 72px;
+    width: 8%;
 }
 
-.user_name{
-    font-size: 24px;
+.user_name {
+    font-size: 25px;
 }
 
-.message_text{
-    font-size: 18px;
+.message_text {
+    font-size: 20px;
 }
 
-.message_date{
+.message_date {
     margin-left: auto;
-    margin-right: 0em;
+    margin-right: 0;
     width: auto;
-    font-size: 14px;
+    font-size: 15px;
 }
