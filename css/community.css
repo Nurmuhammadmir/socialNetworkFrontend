@@ -1,0 +1,132 @@
+* {
+    font-family: 'Arial', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #E9EBF1;
+}
+
+li{
+    display: inline;
+}
+
+
+.header {
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 200px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-header {
+    height: 70px;
+}
+
+.logo-container .site-name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    margin-left: 10px;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    width: 12%;
+}
+
+.header-links a {
+    font-size: 18px;
+    color: black;
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    width: 15%;
+    padding: 10px;
+}
+
+.icon {
+    font-size: 25px;
+    color: #1F3C60;
+}
+
+.menu_object {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.menu_object_text {
+    height: min-content;
+    margin: auto 5px;
+    font-size: 24px;
+    color: #1F3C60;
+}
+
+.community{
+    background-color: white;
+    border-radius: 10px;
+    width: 50%;
+    padding: 10px;
+}
+
+.user {
+    display: flex;
+    padding: 10px;
+    align-items: self-start ;
+    border-radius: 10px;
+}
+
+.user:hover {
+    background-color: #E9EBF1;
+    transition: .5s ease;
+}
+
+.community_data {
+    margin-left: 20px;
+}
+
+.user img {
+    width: 8%;
+}
+
+.user_name {
+    font-size: 20px;
+}
+
+.community_text {
+    font-size: 200px;
+}
+
+.community_date {
+    margin-left: auto;
+    margin-right: 0;
+    width: auto;
+    font-size: 15px;
+}
